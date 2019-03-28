@@ -37,6 +37,17 @@ public class Customer {
         return orders;
     }
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                ", orders=" + orders +
+                '}';
+    }
+
     public Order getOrderById(Integer id){
         for (int i = 0; i <orders.size(); i++){
             if (orders.get(i).getId() == id){

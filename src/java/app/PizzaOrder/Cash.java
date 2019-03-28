@@ -14,6 +14,14 @@ public class Cash extends Payment {
         this.calcChange();
     }
 
+    public Double getChange() {
+        return change;
+    }
+
+    public Double getCashAmount() {
+        return cashAmount;
+    }
+
     public void calcChange(){
         this.change = cashAmount - this.getPrice();
     }
