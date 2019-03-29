@@ -28,6 +28,7 @@ public class Cash extends Payment {
         return "Cash{" +
                 "price=" + this.getPrice() +
                 ", date=" + this.getDate() +
+                ", paid=" + getPaid() +
                 ", change=" + change +
                 ", cashAmount=" + cashAmount +
                 '}';

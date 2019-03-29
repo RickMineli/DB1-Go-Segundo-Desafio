@@ -17,6 +17,7 @@ public class CreditCard extends Payment {
         return "CreditCard{" +
                 "price=" + getPrice() +
                 ", date=" + getDate() +
+                ", paid=" + getPaid() +
                 ", number=" + number +
                 ", expDate=" + expDate +
                 ", securityNumber=" + securityNumber +
