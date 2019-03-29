@@ -83,7 +83,7 @@ public class Order {
         this.payment = new Cash(cashAmount,this.price);
     }
     public void setPaymentCredit(Integer number,Integer expDate, Integer securityNumber){
-        this.payment = new CreditCard(number,expDate,securityNumber);
+        this.payment = new CreditCard(number,expDate,securityNumber,this.price);
     }
 
     public void finalizeOrder(){
