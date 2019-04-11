@@ -15,11 +15,11 @@ public class Order {
     private Payment payment;
     private Customer customer;
 
-    public Order(Integer id,String address, Boolean isPickup, Customer customer) {
+    public Order(Integer id,String address, Customer customer) {
         this.id = id;
         this.address = address;
         this.orderDate = LocalDateTime.now();
-        this.isPickup = isPickup;
+        this.isPickup = false;
         this.customer = customer;
     }
 
@@ -59,6 +59,10 @@ public class Order {
         return customer;
     }
 
+    public void setPickup(Boolean pickup) {
+        isPickup = pickup;
+    }
+
     public Pizza getPizzaById(Integer id){
         for (int i = 0; i <pizzas.size(); i++){
             if (pizzas.get(i).getId() == id){
@@ -68,19 +72,7 @@ public class Order {
         return null;
     }
 
-    @Override
-    public String toString() {
-        return "Order{" +
-                "id=" + id +
-                ", address='" + address + '\'' +
-                ", price=" + price +
-                ", expectedTime=" + expectedTime +
-                ", orderDate=" + orderDate +
-                ", isPickup=" + isPickup +
-                ", payment=" + payment +
-                ", customer=" + customer +
-                '}';
-    }
+
 
     public void addPizza(Pizza pizza){
         this.pizzas.add(pizza);
@@ -88,7 +80,7 @@ public class Order {
     public void setPaymentCash(Double cashAmount){
         this.payment = new Cash(cashAmount,this.price);
     }
-    public void setPaymentCredit(Integer number,Integer expDate, Integer securityNumber){
+    public void setPaymentCredit(String number,Integer expDate, Integer securityNumber){
         this.payment = new CreditCard(number,expDate,securityNumber,this.price);
     }
 
@@ -98,7 +90,6 @@ public class Order {
             toppingAmount += pizzas.get(i).getToppings().size();
         this.price = toppingAmount * 2d;
         this.expectedTime = toppingAmount * 10d;
-        System.out.println("Your " + this.toString());
     }
 }
 
