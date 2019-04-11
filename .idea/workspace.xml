@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e3d8f9-c634-4119-b05c-f37b2b43a562" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DB1SegundoDesafio/app/PizzaOrder/PizzaOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DB1SegundoDesafio/app/PizzaOrder/PizzaOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/Enum/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/enums/Topping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/Cash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/app/PizzaOrder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/app/pizzaOrder/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/PizzaOrder/PizzaOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/pizzaOrder/PizzaOrderTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="42e3d8f9-c634-4119-b05c-f37b2b43a562" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/app/pizzaOrder/PizzaOrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="11" lean-forward="true" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/app/pizzaOrder/Cash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="550">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -236,23 +213,6 @@
             </path>
             <path>
               <item name="DB1SegundoDesafio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DB1SegundoDesafio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DB1SegundoDesafio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DB1SegundoDesafio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzaOrder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DB1SegundoDesafio" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -280,7 +240,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555000792852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555000809411" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -378,7 +338,7 @@
       <workItem from="1553830566560" duration="3581000" />
       <workItem from="1553888227531" duration="1753000" />
       <workItem from="1554897024511" duration="1628000" />
-      <workItem from="1554999372008" duration="1400000" />
+      <workItem from="1554999372008" duration="1957000" />
     </task>
     <servers />
   </component>
@@ -415,7 +375,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23515000" />
+    <option name="totallyTimeSpent" value="24072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -480,13 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/app/pizzaOrder/Cash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -559,11 +512,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/app/pizzaOrder/PizzaOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="11" lean-forward="true" selection-end-line="48" />
+        <state relative-caret-position="418">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/app/pizzaOrder/Cash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
