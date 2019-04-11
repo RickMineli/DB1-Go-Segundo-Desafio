@@ -1,4 +1,4 @@
-package app.PizzaOrder;
+package app.pizzaOrder;
 
 import java.time.LocalDateTime;
 

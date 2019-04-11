@@ -1,6 +1,6 @@
-package app.PizzaOrder;
+package app.pizzaOrder;
 
-import app.Enum.Topping;
+import app.enums.Topping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,13 +21,6 @@ public class Pizza {
         return toppings;
     }
 
-    @Override
-    public String toString() {
-        return "Pizza{" +
-                "id=" + id +
-                ", toppings=" + toppings +
-                '}';
-    }
 
     public void addTopping(Topping newTopping){
         this.toppings.add(newTopping);

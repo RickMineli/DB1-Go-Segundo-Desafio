@@ -1,14 +1,10 @@
-package app.PizzaOrder;
-
-import java.util.ArrayList;
-import java.util.List;
+package app.pizzaOrder;
 
 public class Customer {
     private final Integer id;
     private String name;
     private Integer phoneNumber;
     private String email;
-    private List<Order> orders = new ArrayList<>();
 
     public Customer(Integer id,String name, Integer phoneNumber, String email) {
         this.id = id;
@@ -33,10 +29,6 @@ public class Customer {
         return email;
     }
 
-    public List<Order> getOrders() {
-        return orders;
-    }
-
     @Override
     public String toString() {
         return "Customer{" +
@@ -44,21 +36,6 @@ public class Customer {
                 ", name='" + name + '\'' +
                 ", phoneNumber=" + phoneNumber +
                 ", email='" + email + '\'' +
-                ", orders=" + orders +
                 '}';
     }
-
-    public Order getOrderById(Integer id){
-        for (int i = 0; i <orders.size(); i++){
-            if (orders.get(i).getId() == id){
-                return orders.get(i);
-            }
-        }
-        return null;
-    }
-
-    public void createOrder(Order newOrder){
-        this.orders.add(newOrder);
-    }
-
 }

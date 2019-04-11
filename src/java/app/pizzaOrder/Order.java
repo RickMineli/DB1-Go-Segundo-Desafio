@@ -1,4 +1,4 @@
-package app.PizzaOrder;
+package app.pizzaOrder;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -13,20 +13,18 @@ public class Order {
     private Boolean isPickup;
     private List<Pizza> pizzas = new ArrayList<>();
     private Payment payment;
+    private Customer customer;
 
-    public Order(Integer id,String address, Boolean isPickup) {
+    public Order(Integer id,String address, Boolean isPickup, Customer customer) {
         this.id = id;
         this.address = address;
         this.orderDate = LocalDateTime.now();
         this.isPickup = isPickup;
+        this.customer = customer;
     }
 
     public String getAddress() {
         return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public Double getPrice() {
@@ -53,6 +51,14 @@ public class Order {
         return payment;
     }
 
+    public List<Pizza> getPizzas() {
+        return pizzas;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
     public Pizza getPizzaById(Integer id){
         for (int i = 0; i <pizzas.size(); i++){
             if (pizzas.get(i).getId() == id){
@@ -71,8 +77,8 @@ public class Order {
                 ", expectedTime=" + expectedTime +
                 ", orderDate=" + orderDate +
                 ", isPickup=" + isPickup +
-                ", pizzas=" + pizzas +
                 ", payment=" + payment +
+                ", customer=" + customer +
                 '}';
     }
 

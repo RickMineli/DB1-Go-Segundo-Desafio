@@ -1,4 +1,4 @@
-package app.PizzaOrder;
+package app.pizzaOrder;
 
 public class CreditCard extends Payment {
     private Integer number;

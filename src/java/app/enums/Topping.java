@@ -1,4 +1,4 @@
-package app.Enum;
+package app.enums;
 
 public enum Topping {
     HAM,BEEF,CHICKEN,PEPPERONI,WHITECHEESE,
